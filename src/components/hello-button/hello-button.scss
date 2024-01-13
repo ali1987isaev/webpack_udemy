@@ -1,0 +1,22 @@
+$color-error: red;
+
+body {
+  .button {
+    padding: 20px 40px;
+    background-color: rgb(16, 16, 17);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+    &:active {
+      transform: scale(.99);
+    }
+  }
+  .copy {
+    color: $color-error;
+  }
+}
